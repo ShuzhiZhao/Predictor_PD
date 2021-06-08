@@ -1,4 +1,5 @@
-from utils import readScores,Prediction,loadT1,loadDTI,loadBold,loadERP
+from utils import readScores,loadT1,loadDTI,loadBold,loadERP
+from Predictor import Prediction
     
 ## predict age UPDRS and MMSE
 def mainPredict(work_dir):
